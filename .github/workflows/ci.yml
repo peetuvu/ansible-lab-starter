@@ -44,7 +44,7 @@ jobs:
           ./scripts/setup.sh
 
       - name: Run python script
-        run: ansible-lab-starter//scripts/pythontest.py
+        run: /scripts/pythontest.py
 
 
 
