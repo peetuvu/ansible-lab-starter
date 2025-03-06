@@ -44,7 +44,9 @@ jobs:
           ./scripts/setup.sh
 
       - name: Run python script
-        run: /scripts/pythontest.py
+        run: |
+          chmod +x scripts/pythontest.py
+          ./scripts/pythontest.py
 
 
 
