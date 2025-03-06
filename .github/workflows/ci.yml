@@ -39,10 +39,10 @@ jobs:
           pip install flake8
           
       - name: Run shell script
-        run: /scripts/setup.sh
+        run: ansible-lab-starter/scripts/setup.sh
 
       - name: Run python script
-        run: /scripts/pythontest.py
+        run: ansible-lab-starter//scripts/pythontest.py
 
 
 
