@@ -46,7 +46,7 @@ jobs:
       - name: Run python script
         run: |
           chmod +x scripts/pythontest.py
-          ./scripts/pythontest.py
+          python3 ./scripts/pythontest.py
 
 
 
